@@ -1,0 +1,60 @@
+body, html {
+  height: 100%;
+  background-color: #333033;
+}
+.mainContainer{
+background-image: url("https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&w=1000&q=80");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-column-gap: 2vmin;
+grid-row-gap: 1vmin;
+padding: 2vw 8vw 2vw 8vw;
+margin: 2vw 2vw 2vw 2vw;
+
+text-align: center;
+font-family: courier;
+color: white;
+}
+h1{
+  color: #2B54F0;
+  font-style: oblique;
+}
+
+.fullWidth{
+  grid-column-start: 0;
+  grid-column-end: span 6;
+}
+
+.halfWidth{
+  grid-column-end: span 3;
+}
+.putin{
+  width: 75%;
+}
+.section2{
+background: rgba(51,48,51,0.5);
+padding-left: 2vw;
+padding-right: 2vw;
+}
+.evil{
+  text-align: center;
+}
+.mainContainer2{
+  background-image: url("https://bookriot.com/wp-content/uploads/2019/07/coding-hackers-computer-science-feature-640x340-1280x720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 1vmin;
+  padding: 2vw 8vw 2vw 8vw;
+  margin: 2vw 2vw 2vw 2vw;
+
+  text-align: center;
+  font-family: courier;
+  color: white;
+}
